@@ -1,208 +1,230 @@
-iabbr <buffer> abort ABORT
-iabbr <buffer> abstime ABSTIME
-iabbr <buffer> access ACCESS
-iabbr <buffer> aclitem ACLITEM
-iabbr <buffer> add ADD
-iabbr <buffer> aggregate AGGREGATE
-iabbr <buffer> all ALL
-iabbr <buffer> alter ALTER
-iabbr <buffer> analyze ANALYZE
-iabbr <buffer> and AND
-iabbr <buffer> any ANY
-iabbr <buffer> as AS
-iabbr <buffer> as AS
-iabbr <buffer> asc ASC
-iabbr <buffer> audit AUDIT
-iabbr <buffer> authorization AUTHORIZATION
-iabbr <buffer> begin BEGIN
-iabbr <buffer> between BETWEEN
-iabbr <buffer> bigint BIGINT
-iabbr <buffer> bit BIT
-iabbr <buffer> boolean BOOLEAN
-iabbr <buffer> box BOX
-iabbr <buffer> by BY
-iabbr <buffer> bytea BYTEA
-iabbr <buffer> cascade CASCADE
-iabbr <buffer> char CHAR
-iabbr <buffer> character CHARACTER
-iabbr <buffer> check CHECK
-iabbr <buffer> checkpoint CHECKPOINT
-iabbr <buffer> cid CID
-iabbr <buffer> cidr CIDR
-iabbr <buffer> circle CIRCLE
-iabbr <buffer> close CLOSE
-iabbr <buffer> cluster CLUSTER
-iabbr <buffer> column COLUMN
-iabbr <buffer> comment COMMENT
-iabbr <buffer> commit COMMIT
-iabbr <buffer> compress COMPRESS
-iabbr <buffer> connect CONNECT
-iabbr <buffer> constraints CONSTRAINTS
-iabbr <buffer> copy COPY
-iabbr <buffer> cre CREATE
-iabbr <buffer> create CREATE
-iabbr <buffer> current CURRENT
-iabbr <buffer> cursor CURSOR
-iabbr <buffer> database DATABASE
-iabbr <buffer> date DATE
-iabbr <buffer> decimal DECIMAL
-iabbr <buffer> declare DECLARE
-iabbr <buffer> default DEFAULT
-iabbr <buffer> delete DELETE
-iabbr <buffer> desc DESC
-iabbr <buffer> distinct DISTINCT
-iabbr <buffer> drop DROP
-iabbr <buffer> else ELSE
-iabbr <buffer> elsif ELSIF
-iabbr <buffer> end END
-iabbr <buffer> escape ESCAPE
-iabbr <buffer> exception EXCEPTION
-iabbr <buffer> exclusive EXCLUSIVE
-iabbr <buffer> execute EXECUTE
-iabbr <buffer> exists EXISTS
-iabbr <buffer> explain EXPLAIN
-iabbr <buffer> false FALSE
-iabbr <buffer> fetch FETCH
-iabbr <buffer> file FILE
-iabbr <buffer> float FLOAT
-iabbr <buffer> for FOR
-iabbr <buffer> foreign FOREIGN
-iabbr <buffer> foriegn FOREIGN
-iabbr <buffer> from FROM
-iabbr <buffer> function FUNCTION
-iabbr <buffer> grant GRANT
-iabbr <buffer> group GROUP
-iabbr <buffer> having HAVING
-iabbr <buffer> identified IDENTIFIED
-iabbr <buffer> if IF
-iabbr <buffer> immediate IMMEDIATE
-iabbr <buffer> in IN
-iabbr <buffer> increment INCREMENT
-iabbr <buffer> index INDEX
-iabbr <buffer> inet INET
-iabbr <buffer> initial INITIAL
-iabbr <buffer> ins INSERT
-iabbr <buffer> insert INSERT
-iabbr <buffer> int INTEGER
-iabbr <buffer> int2vector INT2VECTOR
-iabbr <buffer> integer INTEGER
-iabbr <buffer> intersect INTERSECT
-iabbr <buffer> interval INTERVAL
-iabbr <buffer> into INTO
-iabbr <buffer> is IS
-iabbr <buffer> key KEY
-iabbr <buffer> language LANGUAGE
-iabbr <buffer> level LEVEL
-iabbr <buffer> line LINE
-iabbr <buffer> listen LISTEN
-iabbr <buffer> load LOAD
-iabbr <buffer> lock LOCK
-iabbr <buffer> long LONG
-iabbr <buffer> loop LOOP
-iabbr <buffer> lseg LSEG
-iabbr <buffer> macaddr MACADDR
-iabbr <buffer> maxextents MAXEXTENTS
-iabbr <buffer> minus MINUS
-iabbr <buffer> mlslabel MLSLABEL
-iabbr <buffer> mode MODE
-iabbr <buffer> modify MODIFY
-iabbr <buffer> money MONEY
-iabbr <buffer> move MOVE
-iabbr <buffer> name NAME
-iabbr <buffer> noaudit NOAUDIT
-iabbr <buffer> nocompress NOCOMPRESS
-iabbr <buffer> not NOT
-iabbr <buffer> notify NOTIFY
-iabbr <buffer> nowait NOWAIT
-iabbr <buffer> null NULL
-iabbr <buffer> number NUMBER
-iabbr <buffer> numeric NUMERIC
-iabbr <buffer> of OF
-iabbr <buffer> offline OFFLINE
-iabbr <buffer> oid OID
-iabbr <buffer> oidvector OIDVECTOR
-iabbr <buffer> on ON
-iabbr <buffer> online ONLINE
-iabbr <buffer> operator OPERATOR
-iabbr <buffer> option OPTION
-iabbr <buffer> or OR
-iabbr <buffer> order ORDER
-iabbr <buffer> out OUT
-iabbr <buffer> path PATH
-iabbr <buffer> pctfree PCTFREE
-iabbr <buffer> point POINT
-iabbr <buffer> polygon POLYGON
-iabbr <buffer> primary PRIMARY
-iabbr <buffer> prior PRIOR
-iabbr <buffer> privileges PRIVILEGES
-iabbr <buffer> procedure PROCEDURE
-iabbr <buffer> public PUBLIC
-iabbr <buffer> raw RAW
-iabbr <buffer> real REAL
-iabbr <buffer> refcursor REFCURSOR
-iabbr <buffer> references REFERENCES
-iabbr <buffer> refs REFERENCES
-iabbr <buffer> regproc REGPROC
-iabbr <buffer> reindex REINDEX
-iabbr <buffer> reltime RELTIME
-iabbr <buffer> rename RENAME
-iabbr <buffer> reset RESET
-iabbr <buffer> resource RESOURCE
-iabbr <buffer> return RETURN
-iabbr <buffer> revoke REVOKE
-iabbr <buffer> rollback ROLLBACK
-iabbr <buffer> row ROW
-iabbr <buffer> rowid ROWID
-iabbr <buffer> rowlabel ROWLABEL
-iabbr <buffer> rownum ROWNUM
-iabbr <buffer> rows ROWS
-iabbr <buffer> rule RULE
-iabbr <buffer> savepoint SAVEPOINT
-iabbr <buffer> select SELECT
-iabbr <buffer> sequence SEQUENCE
-iabbr <buffer> serial SERIAL
-iabbr <buffer> session SESSION
-iabbr <buffer> set SET
-iabbr <buffer> share SHARE
-iabbr <buffer> show SHOW
-iabbr <buffer> size SIZE
-iabbr <buffer> smallint SMALLINT
-iabbr <buffer> smgr SMGR
-iabbr <buffer> some SOME
-iabbr <buffer> start START
-iabbr <buffer> successful SUCCESSFUL
-iabbr <buffer> synonym SYNONYM
-iabbr <buffer> sysdate SYSDATE
-iabbr <buffer> table TABLE
-iabbr <buffer> text TEXT
-iabbr <buffer> then THEN
-iabbr <buffer> tid TID
-iabbr <buffer> timestamp TIMESTAMP
-iabbr <buffer> tinterval TINTERVAL
-iabbr <buffer> to TO
-iabbr <buffer> trans TRANSACTION
-iabbr <buffer> transaction TRANSACTION
-iabbr <buffer> trigger TRIGGER
-iabbr <buffer> true TRUE
-iabbr <buffer> truncate TRUNCATE
-iabbr <buffer> type TYPE
-iabbr <buffer> type TYPE
-iabbr <buffer> uid UID
-iabbr <buffer> union UNION
-iabbr <buffer> unique UNIQUE
-iabbr <buffer> unknown UNKNOWN
-iabbr <buffer> unlisten UNLISTEN
-iabbr <buffer> update UPDATE
-iabbr <buffer> user USER
-iabbr <buffer> using USING
-iabbr <buffer> vacuum VACUUM
-iabbr <buffer> validate VALIDATE
-iabbr <buffer> values VALUES
-iabbr <buffer> varchar VARCHAR
-iabbr <buffer> varchar2 VARCHAR2
-iabbr <buffer> varray VARRAY
-iabbr <buffer> view VIEW
-iabbr <buffer> whenever WHENEVER
-iabbr <buffer> where WHERE
-iabbr <buffer> with WITH
-iabbr <buffer> xid XID
+" SQL filetype plugin file
+" Language:	  SQL
+" Maintainer:	  Michael Brailsford <brailsmt at yahoo dot com>
+" Enhanced By:	  Hari Krishna Dara <hari_vim at yahoo dot com> 
+" Last Change:	  18-Sep-2002 @ 17:34
+" Revision:	  1.3.0
+" Download From:
+"     http://vim.sourceforge.net/script.php?script_id=305
+" Description:
+"   Capitalizes the SQL keywords.
+" Installation:
+"   Place it in your ftplugin directory (under user runtime directory).
+
+inoreabbr <silent> <buffer> abort <C-R>=<SID>ReplaceOnlyIfNotInComment('abort', 'ABORT')<CR>
+inoreabbr <silent> <buffer> abstime <C-R>=<SID>ReplaceOnlyIfNotInComment('abstime', 'ABSTIME')<CR>
+inoreabbr <silent> <buffer> access <C-R>=<SID>ReplaceOnlyIfNotInComment('access', 'ACCESS')<CR>
+inoreabbr <silent> <buffer> aclitem <C-R>=<SID>ReplaceOnlyIfNotInComment('aclitem', 'ACLITEM')<CR>
+inoreabbr <silent> <buffer> add <C-R>=<SID>ReplaceOnlyIfNotInComment('add', 'ADD')<CR>
+inoreabbr <silent> <buffer> aggregate <C-R>=<SID>ReplaceOnlyIfNotInComment('aggregate', 'AGGREGATE')<CR>
+inoreabbr <silent> <buffer> all <C-R>=<SID>ReplaceOnlyIfNotInComment('all', 'ALL')<CR>
+inoreabbr <silent> <buffer> alter <C-R>=<SID>ReplaceOnlyIfNotInComment('alter', 'ALTER')<CR>
+inoreabbr <silent> <buffer> analyze <C-R>=<SID>ReplaceOnlyIfNotInComment('analyze', 'ANALYZE')<CR>
+inoreabbr <silent> <buffer> and <C-R>=<SID>ReplaceOnlyIfNotInComment('and', 'AND')<CR>
+inoreabbr <silent> <buffer> any <C-R>=<SID>ReplaceOnlyIfNotInComment('any', 'ANY')<CR>
+inoreabbr <silent> <buffer> as <C-R>=<SID>ReplaceOnlyIfNotInComment('as', 'AS')<CR>
+inoreabbr <silent> <buffer> as <C-R>=<SID>ReplaceOnlyIfNotInComment('as', 'AS')<CR>
+inoreabbr <silent> <buffer> asc <C-R>=<SID>ReplaceOnlyIfNotInComment('asc', 'ASC')<CR>
+inoreabbr <silent> <buffer> audit <C-R>=<SID>ReplaceOnlyIfNotInComment('audit', 'AUDIT')<CR>
+inoreabbr <silent> <buffer> authorization <C-R>=<SID>ReplaceOnlyIfNotInComment('authorization', 'AUTHORIZATION')<CR>
+inoreabbr <silent> <buffer> begin <C-R>=<SID>ReplaceOnlyIfNotInComment('begin', 'BEGIN')<CR>
+inoreabbr <silent> <buffer> between <C-R>=<SID>ReplaceOnlyIfNotInComment('between', 'BETWEEN')<CR>
+inoreabbr <silent> <buffer> bigint <C-R>=<SID>ReplaceOnlyIfNotInComment('bigint', 'BIGINT')<CR>
+inoreabbr <silent> <buffer> bit <C-R>=<SID>ReplaceOnlyIfNotInComment('bit', 'BIT')<CR>
+inoreabbr <silent> <buffer> boolean <C-R>=<SID>ReplaceOnlyIfNotInComment('boolean', 'BOOLEAN')<CR>
+inoreabbr <silent> <buffer> box <C-R>=<SID>ReplaceOnlyIfNotInComment('box', 'BOX')<CR>
+inoreabbr <silent> <buffer> by <C-R>=<SID>ReplaceOnlyIfNotInComment('by', 'BY')<CR>
+inoreabbr <silent> <buffer> bytea <C-R>=<SID>ReplaceOnlyIfNotInComment('bytea', 'BYTEA')<CR>
+inoreabbr <silent> <buffer> cascade <C-R>=<SID>ReplaceOnlyIfNotInComment('cascade', 'CASCADE')<CR>
+inoreabbr <silent> <buffer> char <C-R>=<SID>ReplaceOnlyIfNotInComment('char', 'CHAR')<CR>
+inoreabbr <silent> <buffer> character <C-R>=<SID>ReplaceOnlyIfNotInComment('character', 'CHARACTER')<CR>
+inoreabbr <silent> <buffer> check <C-R>=<SID>ReplaceOnlyIfNotInComment('check', 'CHECK')<CR>
+inoreabbr <silent> <buffer> checkpoint <C-R>=<SID>ReplaceOnlyIfNotInComment('checkpoint', 'CHECKPOINT')<CR>
+inoreabbr <silent> <buffer> cid <C-R>=<SID>ReplaceOnlyIfNotInComment('cid', 'CID')<CR>
+inoreabbr <silent> <buffer> cidr <C-R>=<SID>ReplaceOnlyIfNotInComment('cidr', 'CIDR')<CR>
+inoreabbr <silent> <buffer> circle <C-R>=<SID>ReplaceOnlyIfNotInComment('circle', 'CIRCLE')<CR>
+inoreabbr <silent> <buffer> close <C-R>=<SID>ReplaceOnlyIfNotInComment('close', 'CLOSE')<CR>
+inoreabbr <silent> <buffer> cluster <C-R>=<SID>ReplaceOnlyIfNotInComment('cluster', 'CLUSTER')<CR>
+inoreabbr <silent> <buffer> column <C-R>=<SID>ReplaceOnlyIfNotInComment('column', 'COLUMN')<CR>
+inoreabbr <silent> <buffer> comment <C-R>=<SID>ReplaceOnlyIfNotInComment('comment', 'COMMENT')<CR>
+inoreabbr <silent> <buffer> commit <C-R>=<SID>ReplaceOnlyIfNotInComment('commit', 'COMMIT')<CR>
+inoreabbr <silent> <buffer> compress <C-R>=<SID>ReplaceOnlyIfNotInComment('compress', 'COMPRESS')<CR>
+inoreabbr <silent> <buffer> connect <C-R>=<SID>ReplaceOnlyIfNotInComment('connect', 'CONNECT')<CR>
+inoreabbr <silent> <buffer> constraints <C-R>=<SID>ReplaceOnlyIfNotInComment('constraints', 'CONSTRAINTS')<CR>
+inoreabbr <silent> <buffer> copy <C-R>=<SID>ReplaceOnlyIfNotInComment('copy', 'COPY')<CR>
+inoreabbr <silent> <buffer> cre <C-R>=<SID>ReplaceOnlyIfNotInComment('cre', 'CREATE')<CR>
+inoreabbr <silent> <buffer> create <C-R>=<SID>ReplaceOnlyIfNotInComment('create', 'CREATE')<CR>
+inoreabbr <silent> <buffer> current <C-R>=<SID>ReplaceOnlyIfNotInComment('current', 'CURRENT')<CR>
+inoreabbr <silent> <buffer> cursor <C-R>=<SID>ReplaceOnlyIfNotInComment('cursor', 'CURSOR')<CR>
+inoreabbr <silent> <buffer> database <C-R>=<SID>ReplaceOnlyIfNotInComment('database', 'DATABASE')<CR>
+inoreabbr <silent> <buffer> date <C-R>=<SID>ReplaceOnlyIfNotInComment('date', 'DATE')<CR>
+inoreabbr <silent> <buffer> decimal <C-R>=<SID>ReplaceOnlyIfNotInComment('decimal', 'DECIMAL')<CR>
+inoreabbr <silent> <buffer> declare <C-R>=<SID>ReplaceOnlyIfNotInComment('declare', 'DECLARE')<CR>
+inoreabbr <silent> <buffer> default <C-R>=<SID>ReplaceOnlyIfNotInComment('default', 'DEFAULT')<CR>
+inoreabbr <silent> <buffer> delete <C-R>=<SID>ReplaceOnlyIfNotInComment('delete', 'DELETE')<CR>
+inoreabbr <silent> <buffer> desc <C-R>=<SID>ReplaceOnlyIfNotInComment('desc', 'DESC')<CR>
+inoreabbr <silent> <buffer> distinct <C-R>=<SID>ReplaceOnlyIfNotInComment('distinct', 'DISTINCT')<CR>
+inoreabbr <silent> <buffer> drop <C-R>=<SID>ReplaceOnlyIfNotInComment('drop', 'DROP')<CR>
+inoreabbr <silent> <buffer> else <C-R>=<SID>ReplaceOnlyIfNotInComment('else', 'ELSE')<CR>
+inoreabbr <silent> <buffer> elsif <C-R>=<SID>ReplaceOnlyIfNotInComment('elsif', 'ELSIF')<CR>
+inoreabbr <silent> <buffer> end <C-R>=<SID>ReplaceOnlyIfNotInComment('end', 'END')<CR>
+inoreabbr <silent> <buffer> escape <C-R>=<SID>ReplaceOnlyIfNotInComment('escape', 'ESCAPE')<CR>
+inoreabbr <silent> <buffer> exception <C-R>=<SID>ReplaceOnlyIfNotInComment('exception', 'EXCEPTION')<CR>
+inoreabbr <silent> <buffer> exclusive <C-R>=<SID>ReplaceOnlyIfNotInComment('exclusive', 'EXCLUSIVE')<CR>
+inoreabbr <silent> <buffer> execute <C-R>=<SID>ReplaceOnlyIfNotInComment('execute', 'EXECUTE')<CR>
+inoreabbr <silent> <buffer> exists <C-R>=<SID>ReplaceOnlyIfNotInComment('exists', 'EXISTS')<CR>
+inoreabbr <silent> <buffer> explain <C-R>=<SID>ReplaceOnlyIfNotInComment('explain', 'EXPLAIN')<CR>
+inoreabbr <silent> <buffer> false <C-R>=<SID>ReplaceOnlyIfNotInComment('false', 'FALSE')<CR>
+inoreabbr <silent> <buffer> fetch <C-R>=<SID>ReplaceOnlyIfNotInComment('fetch', 'FETCH')<CR>
+inoreabbr <silent> <buffer> file <C-R>=<SID>ReplaceOnlyIfNotInComment('file', 'FILE')<CR>
+inoreabbr <silent> <buffer> float <C-R>=<SID>ReplaceOnlyIfNotInComment('float', 'FLOAT')<CR>
+inoreabbr <silent> <buffer> for <C-R>=<SID>ReplaceOnlyIfNotInComment('for', 'FOR')<CR>
+inoreabbr <silent> <buffer> foreign <C-R>=<SID>ReplaceOnlyIfNotInComment('foreign', 'FOREIGN')<CR>
+inoreabbr <silent> <buffer> foriegn <C-R>=<SID>ReplaceOnlyIfNotInComment('foriegn', 'FOREIGN')<CR>
+inoreabbr <silent> <buffer> from <C-R>=<SID>ReplaceOnlyIfNotInComment('from', 'FROM')<CR>
+inoreabbr <silent> <buffer> function <C-R>=<SID>ReplaceOnlyIfNotInComment('function', 'FUNCTION')<CR>
+inoreabbr <silent> <buffer> grant <C-R>=<SID>ReplaceOnlyIfNotInComment('grant', 'GRANT')<CR>
+inoreabbr <silent> <buffer> group <C-R>=<SID>ReplaceOnlyIfNotInComment('group', 'GROUP')<CR>
+inoreabbr <silent> <buffer> having <C-R>=<SID>ReplaceOnlyIfNotInComment('having', 'HAVING')<CR>
+inoreabbr <silent> <buffer> identified <C-R>=<SID>ReplaceOnlyIfNotInComment('identified', 'IDENTIFIED')<CR>
+inoreabbr <silent> <buffer> if <C-R>=<SID>ReplaceOnlyIfNotInComment('if', 'IF')<CR>
+inoreabbr <silent> <buffer> immediate <C-R>=<SID>ReplaceOnlyIfNotInComment('immediate', 'IMMEDIATE')<CR>
+inoreabbr <silent> <buffer> in <C-R>=<SID>ReplaceOnlyIfNotInComment('in', 'IN')<CR>
+inoreabbr <silent> <buffer> increment <C-R>=<SID>ReplaceOnlyIfNotInComment('increment', 'INCREMENT')<CR>
+inoreabbr <silent> <buffer> index <C-R>=<SID>ReplaceOnlyIfNotInComment('index', 'INDEX')<CR>
+inoreabbr <silent> <buffer> inet <C-R>=<SID>ReplaceOnlyIfNotInComment('inet', 'INET')<CR>
+inoreabbr <silent> <buffer> initial <C-R>=<SID>ReplaceOnlyIfNotInComment('initial', 'INITIAL')<CR>
+inoreabbr <silent> <buffer> ins <C-R>=<SID>ReplaceOnlyIfNotInComment('ins', 'INSERT')<CR>
+inoreabbr <silent> <buffer> insert <C-R>=<SID>ReplaceOnlyIfNotInComment('insert', 'INSERT')<CR>
+inoreabbr <silent> <buffer> int <C-R>=<SID>ReplaceOnlyIfNotInComment('int', 'INTEGER')<CR>
+inoreabbr <silent> <buffer> int2vector <C-R>=<SID>ReplaceOnlyIfNotInComment('int2vector', 'INT2VECTOR')<CR>
+inoreabbr <silent> <buffer> integer <C-R>=<SID>ReplaceOnlyIfNotInComment('integer', 'INTEGER')<CR>
+inoreabbr <silent> <buffer> intersect <C-R>=<SID>ReplaceOnlyIfNotInComment('intersect', 'INTERSECT')<CR>
+inoreabbr <silent> <buffer> interval <C-R>=<SID>ReplaceOnlyIfNotInComment('interval', 'INTERVAL')<CR>
+inoreabbr <silent> <buffer> into <C-R>=<SID>ReplaceOnlyIfNotInComment('into', 'INTO')<CR>
+inoreabbr <silent> <buffer> is <C-R>=<SID>ReplaceOnlyIfNotInComment('is', 'IS')<CR>
+inoreabbr <silent> <buffer> key <C-R>=<SID>ReplaceOnlyIfNotInComment('key', 'KEY')<CR>
+inoreabbr <silent> <buffer> language <C-R>=<SID>ReplaceOnlyIfNotInComment('language', 'LANGUAGE')<CR>
+inoreabbr <silent> <buffer> level <C-R>=<SID>ReplaceOnlyIfNotInComment('level', 'LEVEL')<CR>
+inoreabbr <silent> <buffer> line <C-R>=<SID>ReplaceOnlyIfNotInComment('line', 'LINE')<CR>
+inoreabbr <silent> <buffer> listen <C-R>=<SID>ReplaceOnlyIfNotInComment('listen', 'LISTEN')<CR>
+inoreabbr <silent> <buffer> load <C-R>=<SID>ReplaceOnlyIfNotInComment('load', 'LOAD')<CR>
+inoreabbr <silent> <buffer> lock <C-R>=<SID>ReplaceOnlyIfNotInComment('lock', 'LOCK')<CR>
+inoreabbr <silent> <buffer> long <C-R>=<SID>ReplaceOnlyIfNotInComment('long', 'LONG')<CR>
+inoreabbr <silent> <buffer> loop <C-R>=<SID>ReplaceOnlyIfNotInComment('loop', 'LOOP')<CR>
+inoreabbr <silent> <buffer> lseg <C-R>=<SID>ReplaceOnlyIfNotInComment('lseg', 'LSEG')<CR>
+inoreabbr <silent> <buffer> macaddr <C-R>=<SID>ReplaceOnlyIfNotInComment('macaddr', 'MACADDR')<CR>
+inoreabbr <silent> <buffer> maxextents <C-R>=<SID>ReplaceOnlyIfNotInComment('maxextents', 'MAXEXTENTS')<CR>
+inoreabbr <silent> <buffer> minus <C-R>=<SID>ReplaceOnlyIfNotInComment('minus', 'MINUS')<CR>
+inoreabbr <silent> <buffer> mlslabel <C-R>=<SID>ReplaceOnlyIfNotInComment('mlslabel', 'MLSLABEL')<CR>
+inoreabbr <silent> <buffer> mode <C-R>=<SID>ReplaceOnlyIfNotInComment('mode', 'MODE')<CR>
+inoreabbr <silent> <buffer> modify <C-R>=<SID>ReplaceOnlyIfNotInComment('modify', 'MODIFY')<CR>
+inoreabbr <silent> <buffer> money <C-R>=<SID>ReplaceOnlyIfNotInComment('money', 'MONEY')<CR>
+inoreabbr <silent> <buffer> move <C-R>=<SID>ReplaceOnlyIfNotInComment('move', 'MOVE')<CR>
+inoreabbr <silent> <buffer> name <C-R>=<SID>ReplaceOnlyIfNotInComment('name', 'NAME')<CR>
+inoreabbr <silent> <buffer> noaudit <C-R>=<SID>ReplaceOnlyIfNotInComment('noaudit', 'NOAUDIT')<CR>
+inoreabbr <silent> <buffer> nocompress <C-R>=<SID>ReplaceOnlyIfNotInComment('nocompress', 'NOCOMPRESS')<CR>
+inoreabbr <silent> <buffer> not <C-R>=<SID>ReplaceOnlyIfNotInComment('not', 'NOT')<CR>
+inoreabbr <silent> <buffer> notify <C-R>=<SID>ReplaceOnlyIfNotInComment('notify', 'NOTIFY')<CR>
+inoreabbr <silent> <buffer> nowait <C-R>=<SID>ReplaceOnlyIfNotInComment('nowait', 'NOWAIT')<CR>
+inoreabbr <silent> <buffer> null <C-R>=<SID>ReplaceOnlyIfNotInComment('null', 'NULL')<CR>
+inoreabbr <silent> <buffer> number <C-R>=<SID>ReplaceOnlyIfNotInComment('number', 'NUMBER')<CR>
+inoreabbr <silent> <buffer> numeric <C-R>=<SID>ReplaceOnlyIfNotInComment('numeric', 'NUMERIC')<CR>
+inoreabbr <silent> <buffer> of <C-R>=<SID>ReplaceOnlyIfNotInComment('of', 'OF')<CR>
+inoreabbr <silent> <buffer> offline <C-R>=<SID>ReplaceOnlyIfNotInComment('offline', 'OFFLINE')<CR>
+inoreabbr <silent> <buffer> oid <C-R>=<SID>ReplaceOnlyIfNotInComment('oid', 'OID')<CR>
+inoreabbr <silent> <buffer> oidvector <C-R>=<SID>ReplaceOnlyIfNotInComment('oidvector', 'OIDVECTOR')<CR>
+inoreabbr <silent> <buffer> on <C-R>=<SID>ReplaceOnlyIfNotInComment('on', 'ON')<CR>
+inoreabbr <silent> <buffer> online <C-R>=<SID>ReplaceOnlyIfNotInComment('online', 'ONLINE')<CR>
+inoreabbr <silent> <buffer> operator <C-R>=<SID>ReplaceOnlyIfNotInComment('operator', 'OPERATOR')<CR>
+inoreabbr <silent> <buffer> option <C-R>=<SID>ReplaceOnlyIfNotInComment('option', 'OPTION')<CR>
+inoreabbr <silent> <buffer> or <C-R>=<SID>ReplaceOnlyIfNotInComment('or', 'OR')<CR>
+inoreabbr <silent> <buffer> order <C-R>=<SID>ReplaceOnlyIfNotInComment('order', 'ORDER')<CR>
+inoreabbr <silent> <buffer> out <C-R>=<SID>ReplaceOnlyIfNotInComment('out', 'OUT')<CR>
+inoreabbr <silent> <buffer> path <C-R>=<SID>ReplaceOnlyIfNotInComment('path', 'PATH')<CR>
+inoreabbr <silent> <buffer> pctfree <C-R>=<SID>ReplaceOnlyIfNotInComment('pctfree', 'PCTFREE')<CR>
+inoreabbr <silent> <buffer> point <C-R>=<SID>ReplaceOnlyIfNotInComment('point', 'POINT')<CR>
+inoreabbr <silent> <buffer> polygon <C-R>=<SID>ReplaceOnlyIfNotInComment('polygon', 'POLYGON')<CR>
+inoreabbr <silent> <buffer> primary <C-R>=<SID>ReplaceOnlyIfNotInComment('primary', 'PRIMARY')<CR>
+inoreabbr <silent> <buffer> prior <C-R>=<SID>ReplaceOnlyIfNotInComment('prior', 'PRIOR')<CR>
+inoreabbr <silent> <buffer> privileges <C-R>=<SID>ReplaceOnlyIfNotInComment('privileges', 'PRIVILEGES')<CR>
+inoreabbr <silent> <buffer> procedure <C-R>=<SID>ReplaceOnlyIfNotInComment('procedure', 'PROCEDURE')<CR>
+inoreabbr <silent> <buffer> public <C-R>=<SID>ReplaceOnlyIfNotInComment('public', 'PUBLIC')<CR>
+inoreabbr <silent> <buffer> raw <C-R>=<SID>ReplaceOnlyIfNotInComment('raw', 'RAW')<CR>
+inoreabbr <silent> <buffer> real <C-R>=<SID>ReplaceOnlyIfNotInComment('real', 'REAL')<CR>
+inoreabbr <silent> <buffer> refcursor <C-R>=<SID>ReplaceOnlyIfNotInComment('refcursor', 'REFCURSOR')<CR>
+inoreabbr <silent> <buffer> references <C-R>=<SID>ReplaceOnlyIfNotInComment('references', 'REFERENCES')<CR>
+inoreabbr <silent> <buffer> refs <C-R>=<SID>ReplaceOnlyIfNotInComment('refs', 'REFERENCES')<CR>
+inoreabbr <silent> <buffer> regproc <C-R>=<SID>ReplaceOnlyIfNotInComment('regproc', 'REGPROC')<CR>
+inoreabbr <silent> <buffer> reindex <C-R>=<SID>ReplaceOnlyIfNotInComment('reindex', 'REINDEX')<CR>
+inoreabbr <silent> <buffer> reltime <C-R>=<SID>ReplaceOnlyIfNotInComment('reltime', 'RELTIME')<CR>
+inoreabbr <silent> <buffer> rename <C-R>=<SID>ReplaceOnlyIfNotInComment('rename', 'RENAME')<CR>
+inoreabbr <silent> <buffer> reset <C-R>=<SID>ReplaceOnlyIfNotInComment('reset', 'RESET')<CR>
+inoreabbr <silent> <buffer> resource <C-R>=<SID>ReplaceOnlyIfNotInComment('resource', 'RESOURCE')<CR>
+inoreabbr <silent> <buffer> return <C-R>=<SID>ReplaceOnlyIfNotInComment('return', 'RETURN')<CR>
+inoreabbr <silent> <buffer> revoke <C-R>=<SID>ReplaceOnlyIfNotInComment('revoke', 'REVOKE')<CR>
+inoreabbr <silent> <buffer> rollback <C-R>=<SID>ReplaceOnlyIfNotInComment('rollback', 'ROLLBACK')<CR>
+inoreabbr <silent> <buffer> row <C-R>=<SID>ReplaceOnlyIfNotInComment('row', 'ROW')<CR>
+inoreabbr <silent> <buffer> rowid <C-R>=<SID>ReplaceOnlyIfNotInComment('rowid', 'ROWID')<CR>
+inoreabbr <silent> <buffer> rowlabel <C-R>=<SID>ReplaceOnlyIfNotInComment('rowlabel', 'ROWLABEL')<CR>
+inoreabbr <silent> <buffer> rownum <C-R>=<SID>ReplaceOnlyIfNotInComment('rownum', 'ROWNUM')<CR>
+inoreabbr <silent> <buffer> rows <C-R>=<SID>ReplaceOnlyIfNotInComment('rows', 'ROWS')<CR>
+inoreabbr <silent> <buffer> rule <C-R>=<SID>ReplaceOnlyIfNotInComment('rule', 'RULE')<CR>
+inoreabbr <silent> <buffer> savepoint <C-R>=<SID>ReplaceOnlyIfNotInComment('savepoint', 'SAVEPOINT')<CR>
+inoreabbr <silent> <buffer> select <C-R>=<SID>ReplaceOnlyIfNotInComment('select', 'SELECT')<CR>
+inoreabbr <silent> <buffer> sequence <C-R>=<SID>ReplaceOnlyIfNotInComment('sequence', 'SEQUENCE')<CR>
+inoreabbr <silent> <buffer> serial <C-R>=<SID>ReplaceOnlyIfNotInComment('serial', 'SERIAL')<CR>
+inoreabbr <silent> <buffer> session <C-R>=<SID>ReplaceOnlyIfNotInComment('session', 'SESSION')<CR>
+inoreabbr <silent> <buffer> set <C-R>=<SID>ReplaceOnlyIfNotInComment('set', 'SET')<CR>
+inoreabbr <silent> <buffer> share <C-R>=<SID>ReplaceOnlyIfNotInComment('share', 'SHARE')<CR>
+inoreabbr <silent> <buffer> show <C-R>=<SID>ReplaceOnlyIfNotInComment('show', 'SHOW')<CR>
+inoreabbr <silent> <buffer> size <C-R>=<SID>ReplaceOnlyIfNotInComment('size', 'SIZE')<CR>
+inoreabbr <silent> <buffer> smallint <C-R>=<SID>ReplaceOnlyIfNotInComment('smallint', 'SMALLINT')<CR>
+inoreabbr <silent> <buffer> smgr <C-R>=<SID>ReplaceOnlyIfNotInComment('smgr', 'SMGR')<CR>
+inoreabbr <silent> <buffer> some <C-R>=<SID>ReplaceOnlyIfNotInComment('some', 'SOME')<CR>
+inoreabbr <silent> <buffer> start <C-R>=<SID>ReplaceOnlyIfNotInComment('start', 'START')<CR>
+inoreabbr <silent> <buffer> successful <C-R>=<SID>ReplaceOnlyIfNotInComment('successful', 'SUCCESSFUL')<CR>
+inoreabbr <silent> <buffer> synonym <C-R>=<SID>ReplaceOnlyIfNotInComment('synonym', 'SYNONYM')<CR>
+inoreabbr <silent> <buffer> sysdate <C-R>=<SID>ReplaceOnlyIfNotInComment('sysdate', 'SYSDATE')<CR>
+inoreabbr <silent> <buffer> table <C-R>=<SID>ReplaceOnlyIfNotInComment('table', 'TABLE')<CR>
+inoreabbr <silent> <buffer> text <C-R>=<SID>ReplaceOnlyIfNotInComment('text', 'TEXT')<CR>
+inoreabbr <silent> <buffer> then <C-R>=<SID>ReplaceOnlyIfNotInComment('then', 'THEN')<CR>
+inoreabbr <silent> <buffer> tid <C-R>=<SID>ReplaceOnlyIfNotInComment('tid', 'TID')<CR>
+inoreabbr <silent> <buffer> timestamp <C-R>=<SID>ReplaceOnlyIfNotInComment('timestamp', 'TIMESTAMP')<CR>
+inoreabbr <silent> <buffer> tinterval <C-R>=<SID>ReplaceOnlyIfNotInComment('tinterval', 'TINTERVAL')<CR>
+inoreabbr <silent> <buffer> to <C-R>=<SID>ReplaceOnlyIfNotInComment('to', 'TO')<CR>
+inoreabbr <silent> <buffer> trans <C-R>=<SID>ReplaceOnlyIfNotInComment('trans', 'TRANSACTION')<CR>
+inoreabbr <silent> <buffer> transaction <C-R>=<SID>ReplaceOnlyIfNotInComment('transaction', 'TRANSACTION')<CR>
+inoreabbr <silent> <buffer> trigger <C-R>=<SID>ReplaceOnlyIfNotInComment('trigger', 'TRIGGER')<CR>
+inoreabbr <silent> <buffer> true <C-R>=<SID>ReplaceOnlyIfNotInComment('true', 'TRUE')<CR>
+inoreabbr <silent> <buffer> truncate <C-R>=<SID>ReplaceOnlyIfNotInComment('truncate', 'TRUNCATE')<CR>
+inoreabbr <silent> <buffer> type <C-R>=<SID>ReplaceOnlyIfNotInComment('type', 'TYPE')<CR>
+inoreabbr <silent> <buffer> type <C-R>=<SID>ReplaceOnlyIfNotInComment('type', 'TYPE')<CR>
+inoreabbr <silent> <buffer> uid <C-R>=<SID>ReplaceOnlyIfNotInComment('uid', 'UID')<CR>
+inoreabbr <silent> <buffer> union <C-R>=<SID>ReplaceOnlyIfNotInComment('union', 'UNION')<CR>
+inoreabbr <silent> <buffer> unique <C-R>=<SID>ReplaceOnlyIfNotInComment('unique', 'UNIQUE')<CR>
+inoreabbr <silent> <buffer> unknown <C-R>=<SID>ReplaceOnlyIfNotInComment('unknown', 'UNKNOWN')<CR>
+inoreabbr <silent> <buffer> unlisten <C-R>=<SID>ReplaceOnlyIfNotInComment('unlisten', 'UNLISTEN')<CR>
+inoreabbr <silent> <buffer> update <C-R>=<SID>ReplaceOnlyIfNotInComment('update', 'UPDATE')<CR>
+inoreabbr <silent> <buffer> user <C-R>=<SID>ReplaceOnlyIfNotInComment('user', 'USER')<CR>
+inoreabbr <silent> <buffer> using <C-R>=<SID>ReplaceOnlyIfNotInComment('using', 'USING')<CR>
+inoreabbr <silent> <buffer> vacuum <C-R>=<SID>ReplaceOnlyIfNotInComment('vacuum', 'VACUUM')<CR>
+inoreabbr <silent> <buffer> validate <C-R>=<SID>ReplaceOnlyIfNotInComment('validate', 'VALIDATE')<CR>
+inoreabbr <silent> <buffer> values <C-R>=<SID>ReplaceOnlyIfNotInComment('values', 'VALUES')<CR>
+inoreabbr <silent> <buffer> varchar <C-R>=<SID>ReplaceOnlyIfNotInComment('varchar', 'VARCHAR')<CR>
+inoreabbr <silent> <buffer> varchar2 <C-R>=<SID>ReplaceOnlyIfNotInComment('varchar2', 'VARCHAR2')<CR>
+inoreabbr <silent> <buffer> varray <C-R>=<SID>ReplaceOnlyIfNotInComment('varray', 'VARRAY')<CR>
+inoreabbr <silent> <buffer> view <C-R>=<SID>ReplaceOnlyIfNotInComment('view', 'VIEW')<CR>
+inoreabbr <silent> <buffer> whenever <C-R>=<SID>ReplaceOnlyIfNotInComment('whenever', 'WHENEVER')<CR>
+inoreabbr <silent> <buffer> where <C-R>=<SID>ReplaceOnlyIfNotInComment('where', 'WHERE')<CR>
+inoreabbr <silent> <buffer> with <C-R>=<SID>ReplaceOnlyIfNotInComment('with', 'WITH')<CR>
+inoreabbr <silent> <buffer> xid <C-R>=<SID>ReplaceOnlyIfNotInComment('xid', 'XID')<CR>
+
+function! s:ReplaceOnlyIfNotInComment(original, replacement)
+  if synIDtrans(synID(line("."), col(".") - 1, 0)) != hlID('Comment')
+    let word = a:replacement
+  else
+    let word = a:original
+  endif
+  return word
+endfunction
