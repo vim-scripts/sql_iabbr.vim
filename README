@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=305
+
+With this ftplugin you can type "create table foo (foo_id int);" and get "CREATE TABLE foo (foo_id INT);".  It is based on both sql.vim and the output from postgresql's \dT command while in psql.  That makes it a tad bit tailored to postgresql, but it will work with any SQL compliant dbms.  Please note that I am not an SQL wizard.  I just know how to copy and paste and use ":%s///".  :)  Enjoy!  Comments are welcome.  Many thanks to Hari Krishna Dara for improving this plugin and making it generally more useful.
