@@ -22,6 +22,7 @@ iabbr boolean BOOLEAN
 iabbr box BOX
 iabbr by BY
 iabbr bytea BYTEA
+iabbr cascade CASCADE
 iabbr char CHAR
 iabbr character CHARACTER
 iabbr check CHECK
@@ -38,6 +39,7 @@ iabbr compress COMPRESS
 iabbr connect CONNECT
 iabbr constraints CONSTRAINTS
 iabbr copy COPY
+iabbr cre CREATE
 iabbr create CREATE
 iabbr current CURRENT
 iabbr cursor CURSOR
@@ -64,6 +66,8 @@ iabbr fetch FETCH
 iabbr file FILE
 iabbr float FLOAT
 iabbr for FOR
+iabbr foreign FOREIGN
+iabbr foriegn FOREIGN
 iabbr from FROM
 iabbr function FUNCTION
 iabbr grant GRANT
@@ -77,13 +81,16 @@ iabbr increment INCREMENT
 iabbr index INDEX
 iabbr inet INET
 iabbr initial INITIAL
+iabbr ins INSERT
 iabbr insert INSERT
+iabbr int INTEGER
 iabbr int2vector INT2VECTOR
 iabbr integer INTEGER
 iabbr intersect INTERSECT
 iabbr interval INTERVAL
 iabbr into INTO
 iabbr is IS
+iabbr key KEY
 iabbr language LANGUAGE
 iabbr level LEVEL
 iabbr line LINE
@@ -125,6 +132,7 @@ iabbr path PATH
 iabbr pctfree PCTFREE
 iabbr point POINT
 iabbr polygon POLYGON
+iabbr primary PRIMARY
 iabbr prior PRIOR
 iabbr privileges PRIVILEGES
 iabbr procedure PROCEDURE
@@ -132,6 +140,8 @@ iabbr public PUBLIC
 iabbr raw RAW
 iabbr real REAL
 iabbr refcursor REFCURSOR
+iabbr references REFERENCES
+iabbr refs REFERENCES
 iabbr regproc REGPROC
 iabbr reindex REINDEX
 iabbr reltime RELTIME
@@ -150,6 +160,7 @@ iabbr rule RULE
 iabbr savepoint SAVEPOINT
 iabbr select SELECT
 iabbr sequence SEQUENCE
+iabbr serial SERIAL
 iabbr session SESSION
 iabbr set SET
 iabbr share SHARE
@@ -169,6 +180,7 @@ iabbr tid TID
 iabbr timestamp TIMESTAMP
 iabbr tinterval TINTERVAL
 iabbr to TO
+iabbr trans TRANSACTION
 iabbr transaction TRANSACTION
 iabbr trigger TRIGGER
 iabbr true TRUE
