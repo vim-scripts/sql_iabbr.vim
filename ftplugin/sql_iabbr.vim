@@ -4,12 +4,16 @@
 " Contributions:
 "		  Hari Krishna Dara <hari_vim at yahoo dot com> 
 "		  Zak Beck <zak dot beck at e-peopleserve dot com>
-" Last Change:	  01-Nov-2002 @ 14:26
-" Revision:	  1.4.0
+" Last Change:	  13-Nov-2002 @ 15:56
+" Revision:	  1.5.0
 " Download From:
 "     http://vim.sourceforge.net/script.php?script_id=305
 " Description:
 "   Capitalizes the SQL keywords when not typed in comments or string constants.
+"     To undo the previous immediate capitalization, press ^Xu. This will work
+"     correctly only when you are still next to the word for which you want to
+"     undo capitaliation and you have not left the insert mode since the
+"     capitaliation was done.
 " Installation:
 "   Place it in your ftplugin directory (under user runtime directory).
 
@@ -239,5 +243,9 @@ function! SqlIab_ReplaceConditionally(original, replacement)
   else
     let word = a:original
   endif
+
+  let g:UndoBuffer = a:original
   return word
 endfunction
+
+inoremap <buffer> <C-X>u <C-W><C-R>=g:UndoBuffer<CR><C-V><Space>
